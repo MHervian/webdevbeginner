@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ini bagian styling pada header */
+.header {
+  padding: 19px 20px;
+  background-color: #fbfbfb;
+  box-shadow: 0 0 10px #cecece;
+}
+
+.logo-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.logo-login > .logo-link {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.logo-img {
+  width: 90px;
+  height: 40px;
+}
+
+.logo-teks {
+  color: black;
+  align-self: center;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+/* Isi kontent */
+.main {
+  width: 1200px;
+  margin: auto;
+  padding-top: 37px;
+}
+
+.btn-input-form {
+  display: inline-block;
+  margin-bottom: 21px;
+  padding: 14px 12px;
+  background-color: #339933;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-input-pembayaran {
+  background-color: #3377ff;
+}
+
+.judul-tabel {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.tabel {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.tabel th, .tabel td {
+  padding: 12px 12px;
+  border: 1px solid lightgray;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  background-color: pink;
+  border: none;
+}
+
+.btn-detail {
+  background-color: #a0a0a0;
+}
+
+.btn-ubah {
+  background-color: #4d94ff;
+}
+
+.btn-hapus {
+  background-color: #ff3333;
+}
+
+/* Form styling */
+form {
+  display: block;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+form label {
+  display: block;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="date"],
+form textarea, form select {
+  display: block;
+  width: 100%;
+  padding: 13px 20px;
+  border: 1px solid #dedede;
+  background-color: white;
+}
+
+.btn-input {
+  box-shadow: none;
+  background-color: #4d94ff;
+  cursor: pointer;
+}
+
+.btn-reset {
+  box-shadow: none;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.btn-login-halaman {
+  background-color: #ff3333;
+}
+
+/* Footer section */
+.footer {
+  padding: 30px;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Bagian tambahan class */
+.m1 {
+  margin-top:39px;
+}
+
+.padding-form-top {
+  padding-top: 160px;
+}

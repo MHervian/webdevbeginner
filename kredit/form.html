@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detail Pemesanan - Toko Optik</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#" class="logo-link">
+        <img src="src/images/logo.png" class="logo-img" />
+        <span class="logo-teks">Toko Optik</span>
+      </a>
+    </div>
+    <div class="main">
+      <a href="index.html" class="btn-input-form">Kembali Ke List Pemesanan</a>
+      <h1 class="judul-tabel">Form Pemesanan Baru Kacamata</h1>
+      <form action="" method="post">
+        <label>Nama Konsumen:</label>
+        <input type="text" name="konsumen" /><br />
+        <label>Tgl Lahir:</label>
+        <input type="date" name="tgl_lahir" /><br />
+        <label>No Kontak:</label>
+        <input type="text" name="kontak" /><br />
+        <label>Alamat:</label>
+        <textarea name="alamat"></textarea><br />
+        <label>Jenis Kelamin</label>
+        <select name="j_kelamin">
+          <option>Laki - laki</option>
+          <option>Perempuan</option>
+        </select>
+
+        <h4>Resep Kacamata</h4>
+        <table class="tabel" style="margin-bottom: 29px;">
+          <tr>
+            <th></th>
+            <th>Add</th>
+            <th>Cyt</th>
+            <th>Prism</th>
+          </tr>
+          <tr>
+            <td>R</td>
+            <td><input type="text" name="r_add" /></td>
+            <td><input type="text" name="r_cyt" /></td>
+            <td><input type="text" name="r_prism" /></td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td><input type="text" name="l_add" /></td>
+            <td><input type="text" name="l_cyt" /></td>
+            <td><input type="text" name="l_prism" /></td>
+          </tr>
+        </table>
+        <button type="submit" class="btn btn-input" id="button1 button2">
+          Input Pemesanan
+        </button>
+        <button type="reset" class="btn btn-reset">Reset Form</button>
+      </form>
+    </div>
+    <div class="footer">
+      <p>&copy;Copyright Toko Optik 2022</p>
+    </div>
+  </body>
+</html>
